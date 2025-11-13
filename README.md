@@ -11,6 +11,7 @@ mvn spring-boot:run
 ```
 
 Как только сервер запустится, он доступен по адресу `http://localhost:8080/`. 
+Документация Swagger доступна по адресу `http://localhost:8080/swagger-ui/index.html`.
 
 ## Создание выполнимого JAR
 
