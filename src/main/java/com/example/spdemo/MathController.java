@@ -25,6 +25,8 @@ public class MathController {
             throw new RuntimeException(e);
         }
 
-        return calculationService.findMin(numbers, req.getOrder());
+        int min = calculationService.findMin(numbers, req.getOrder());
+
+        return new MinResponse(min);
     }
 }

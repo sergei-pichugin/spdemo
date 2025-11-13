@@ -24,12 +24,15 @@ class FileServiceTest {
 
     @Test
     void shouldGetNumbersFromXlsx() throws IOException {
+        //Given
         Resource resource = resourceLoader.getResource("classpath:testfile.xlsx");
         assertNotNull(resource);
         assertTrue(resource.exists());
 
+        //When
         int[] numbers = service.getNumbersFromXlsx(resource.getURI().getPath());
 
+        //Then
         assertEquals(5, numbers.length);
         assertEquals(3, numbers[numbers.length-1]);
     }
