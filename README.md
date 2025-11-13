@@ -29,5 +29,5 @@ jar tvf target/spdemo-<номер версии в pom>.jar
 Для запуска приложения испольуйте команду java -jar:
 
 ```terminal
-java -jar target/myproject-0.0.1-SNAPSHOT.jar
+java -jar target/spdemo-<номер версии в pom>.jar
 ```
