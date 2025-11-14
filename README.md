@@ -4,7 +4,7 @@ This project was generated using [spring initializer](https://start.spring.io/) 
 
 ## Запуск приложения
 
-Для запуска локального сервера, запустите:
+Для запуска локального сервера введите в терминале или командной строке:
 
 ```terminal
 mvn spring-boot:run
@@ -21,13 +21,13 @@ mvn spring-boot:run
 mvn package
 ```
 
-Если Вы посмотрите в целевой каталог, Вы должны увидеть spdemo-<номер версии в pom>.jar. Для просмотра содержимого арихва используйтеto jar tvf:
+Если Вы посмотрите в целевой каталог, Вы должны увидеть spdemo-<номер версии в pom>.jar. Для просмотра содержимого архива используйте jar tvf:
 
 ```terminal
 jar tvf target/spdemo-<номер версии в pom>.jar
 ```
 
-Для запуска приложения испольуйте команду java -jar:
+Для запуска приложения используйте команду java -jar:
 
 ```terminal
 java -jar target/spdemo-<номер версии в pom>.jar
