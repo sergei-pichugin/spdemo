@@ -2,6 +2,8 @@ package com.example.spdemo;
 
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
+
 @Service
 public class CalculationService {
 
@@ -15,7 +17,7 @@ public class CalculationService {
         if (order == 1) {
             return findFirstMin(numbers);
         }
-        QuickSort.sort(numbers, 0, 0, numbers.length);
+        TimSort.sort(numbers);
         return numbers[order-1];
     }
 
